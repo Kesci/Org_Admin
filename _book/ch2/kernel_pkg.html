@@ -168,6 +168,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.5" data-path="../ch1/monitor.html">
+            
+                <a href="../ch1/monitor.html">
+            
+                    
+                    监控区
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -442,51 +455,6 @@
             
 
             
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1" data-path="../ch6/edit_mode.html">
-            
-                <a href="../ch6/edit_mode.html">
-            
-                    
-                    编辑模式
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2" data-path="../ch6/command_mode.html">
-            
-                <a href="../ch6/command_mode.html">
-            
-                    
-                    命令模式
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.3" data-path="../ch6/global_shortcuts.html">
-            
-                <a href="../ch6/global_shortcuts.html">
-            
-                    
-                    全局快捷键
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
         </li>
     
         <li class="chapter " data-level="1.8" data-path="../ch7/chapter7.html">
@@ -606,7 +574,43 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="kernel&#x5185;&#x7F6E;&#x5DE5;&#x5177;&#x5305;">Kernel&#x5185;&#x7F6E;&#x5DE5;&#x5177;&#x5305;</h1>
-
+<p>K-Lab kernel&#x4E2D;&#x5185;&#x7F6E;&#x5404;&#x7C7B;&#x4E3B;&#x6D41;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x3001;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x6846;&#x67B6;&#xFF0C;&#x96C6;&#x6210;&#x4E86;&#x5E38;&#x89C1;&#x6570;&#x636E;&#x5206;&#x6790;&#x5305;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x514D;&#x9664;&#x524D;&#x671F;&#x73AF;&#x5883;&#x914D;&#x7F6E;&#xFF0C;&#x76F4;&#x63A5;&#x5F00;&#x5C55;&#x5206;&#x6790;&#x5DE5;&#x4F5C;&#x3002;</p>
+<p>K-Lab Kernel&#x652F;&#x6301;&#x7528;&#x6237;&#x5728;&#x4E0E;Kernel&#x76F8;&#x8FDE;&#x7684;Notebook&#x4E2D;&#x8F93;&#x5165;&#x6307;&#x4EE4;&#x67E5;&#x770B;&#x3001;&#x5B89;&#x88C5;&#x548C;&#x66F4;&#x65B0;&#x5DE5;&#x5177;&#x5305;&#x3002; </p>
+<h3 id="&#x67E5;&#x770B;&#x5DE5;&#x5177;&#x5305;">&#x67E5;&#x770B;&#x5DE5;&#x5177;&#x5305;</h3>
+<p>&#x7528;&#x6237;&#x53EF;&#x5728;Notebook&#x7684;Code Cell&#x4E2D;&#x952E;&#x5165;&#x76F8;&#x5E94;&#x6307;&#x4EE4;&#x67E5;&#x770B;&#x9884;&#x7F6E;&#x7684;&#x5DE5;&#x5177;&#x5305;&#x3002;</p>
+<ul>
+<li><p>Python3 Kernel</p>
+<pre><code>!pip list --format=columns  #&#x67E5;&#x770B;Kernel&#x4E0B;&#x6240;&#x6709;&#x9884;&#x7F6E;&#x7684;&#x5DE5;&#x5177;&#x5305;
+!pip show package_name      #&#x67E5;&#x770B;Kernel&#x662F;&#x5426;&#x6709;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#x5305;
+</code></pre></li>
+<li><p>Python2 Kernel    </p>
+<pre><code>!pip2 list --format=columns  #&#x67E5;&#x770B;Kernel&#x4E0B;&#x6240;&#x6709;&#x9884;&#x7F6E;&#x7684;&#x5DE5;&#x5177;&#x5305;
+!pip2 show package_name      #&#x67E5;&#x770B;Kernel&#x662F;&#x5426;&#x6709;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#x5305;
+</code></pre></li>
+<li><p>R Kernel</p>
+<pre><code>pkgs &lt;- installed.packages();
+pkgs[is.na(pkgs[,&quot;Priority&quot;]), c(&quot;Package&quot;, &quot;Version&quot;)]
+installed.packages(&apos;package name&apos;)
+</code></pre></li>
+</ul>
+<h3 id="&#x5B89;&#x88C5;&#x3001;&#x5347;&#x7EA7;&#x5DE5;&#x5177;&#x5305;">&#x5B89;&#x88C5;&#x3001;&#x5347;&#x7EA7;&#x5DE5;&#x5177;&#x5305;</h3>
+<p>&#x7528;&#x6237;&#x53EF;&#x5728;Notebook&#x7684;Code Cell&#x4E2D;&#x952E;&#x5165;&#x76F8;&#x5E94;bash&#x6307;&#x4EE4;&#x5B89;&#x88C5;&#x3001;&#x66F4;&#x65B0;&#x6240;&#x9700;&#x8981;&#x7684;&#x5DE5;&#x5177;&#x5305;</p>
+<ul>
+<li>Python3 Kernel<pre><code>!pip install package_name==version #&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x5305;
+!pip install package_name --upgrade #&#x66F4;&#x65B0;&#x5DE5;&#x5177;&#x5305;
+</code></pre></li>
+<li><p>Python2 Kernel</p>
+<pre><code>!pip2 install package_name==version #&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x5305;
+!pip2 install package_name --upgrade #&#x66F4;&#x65B0;&#x5DE5;&#x5177;&#x5305;&#x3002;
+</code></pre></li>
+<li><p>R Kernel</p>
+<pre><code>install.packages(package_name) #&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x5305;&#x3002;
+</code></pre></li>
+</ul>
+<p><strong>&#x53CB;&#x60C5;&#x63D0;&#x793A;</strong>&#xFF1A;</p>
+<pre><code>* &#x624B;&#x52A8;&#x5B89;&#x88C5;&#x597D;&#x5DE5;&#x5177;&#x5305;&#x540E;&#xFF0C;&#x8BF7;&#x5237;&#x65B0;&#x9875;&#x9762;&#xFF0C;&#x5237;&#x65B0;&#x540E;Kernel&#x5C06;&#x5B8C;&#x6210;&#x5DE5;&#x5177;&#x5305;&#x7684;&#x66F4;&#x65B0;&#x90E8;&#x7F72;&#x3002;
+* &#x7528;&#x6237;&#x81EA;&#x884C;&#x5B89;&#x88C5;&#x7684;&#x5DE5;&#x5177;&#x5305;&#x4E0D;&#x80FD;&#x88AB;&#x6301;&#x4E45;&#x5316;&#xFF0C;&#x6709;&#x6301;&#x4E45;&#x5316;&#x9700;&#x6C42;&#x7684;&#x5DE5;&#x5177;&#x5305;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;[&#x5E2E;&#x52A9;&#x4E2D;&#x5FC3;](https://www.kesci.com/apps/home/workspace/help)&#x4E0B;&#x7684;&#x610F;&#x89C1;&#x53CD;&#x9988;&#x5411;&#x79D1;&#x8D5B;&#x7F51;&#x63D0;&#x51FA;&#x5DE5;&#x5177;&#x5305;&#x5B89;&#x88C5;&#x9700;&#x6C42;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5728;2&#x4E2A;&#x5DE5;&#x4F5C;&#x65E5;&#x5185;&#x7ED9;&#x51FA;&#x7B54;&#x590D;&#x3002;
+</code></pre>
                                 
                                 </section>
                             
@@ -649,7 +653,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Kernel内置工具包","level":"1.3.2","depth":2,"next":{"title":"Kernel计算资源","level":"1.3.3","depth":2,"path":"ch2/kernel_computing_source.md","ref":"ch2/kernel_computing_source.md","articles":[]},"previous":{"title":"Kernel类型","level":"1.3.1","depth":2,"path":"ch2/kernel_type.md","ref":"ch2/kernel_type.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch2/kernel_pkg.md","mtime":"2018-04-10T07:10:37.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-10T07:15:31.872Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Kernel内置工具包","level":"1.3.2","depth":2,"next":{"title":"Kernel计算资源","level":"1.3.3","depth":2,"path":"ch2/kernel_computing_source.md","ref":"ch2/kernel_computing_source.md","articles":[]},"previous":{"title":"Kernel类型","level":"1.3.1","depth":2,"path":"ch2/kernel_type.md","ref":"ch2/kernel_type.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch2/kernel_pkg.md","mtime":"2018-04-11T06:49:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-11T06:40:33.176Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

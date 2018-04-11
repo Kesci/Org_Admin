@@ -1,7 +1,7 @@
 # 管理项目
 
 用户可以在`项目`中查看和管理个人创建的项目，并完成**运行项目**，**修改项目属性**，**删除项目**，**分享项目**等操作。
- ![image description](../image/project-management.png)
+ ![image description](/image/project-management.png)
 * **修改项目属性**：用户可以通过该入口修改项目名称、修改项目描述、**修改项目标签**、**修改挂载数据集**。
 
 * **删除项目**：项目一经删除，无法找回。

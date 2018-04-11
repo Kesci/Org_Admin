@@ -1,4 +1,4 @@
 # 监控区
 
 用户可以在页面底部的监控区随时查看监控信息和日志，在监控条上可以看到K-lab的可用时间、CPU用量、内存用量、磁盘用量以及工作区状态等。同时用户可以通过查看系统日志的方式来分析运行过程中的异常信息。
-![image description](../image/monitor.png)
+![image description](/image/monitor.png)

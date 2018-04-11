@@ -6,4 +6,4 @@ K-Lab 给每位用户都配置了独享云计算资源。
 
 用户可以在监控区查看剩余使用时长与计算资源使用情况。
 
-![image description](../image/monitor-time.png)
+![image description](/image/monitor-time.png)

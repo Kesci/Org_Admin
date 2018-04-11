@@ -1,6 +1,6 @@
 # Header
 Header包含了菜单栏、工具栏与kernel状态。用户在编辑Notebook时Header会一直保持在页面顶端。
-![image description](../image/header.png) 
+![image description](/image/header.png) 
 
 **菜单栏**
 * **文件**：对整体项目文件的操作
