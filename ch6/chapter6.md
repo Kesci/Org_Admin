@@ -7,7 +7,7 @@ K-Lab内支持原生Jupyter Notebook的快捷键。快捷键分为命令模式�
 * `X`：剪切选中cell
 * `Shift`+`J`    
   `Shift`+`ArrowDown`：向下选择cell
-* `Shift`+`K`
+* `Shift`+`K`    
   `Shift`+`ArrowUp`：向上选择cell
 * `Z`：撤销操作
 * `ArrowDown`：选择下方cell
