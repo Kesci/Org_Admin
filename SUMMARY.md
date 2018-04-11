@@ -1,6 +1,6 @@
 # Summary
 
-* [K-Lab组织版用户手册](README.md)
+* [K-Lab组织版管理员手册](README.md)
 * [Notebook(编程环境)](ch1/chapter1.md)
     * [Header](ch1/header.md)
     * [Code Cell](ch1/code_cell.md)
