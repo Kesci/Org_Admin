@@ -9,7 +9,7 @@
 ![image description](/image/成员-切换列表.png)
 ![image description](/image/待接受邀请成员.png)
 * 搜索成员：可在搜索框内输入成员的用户名，搜索成员。
-![image description](/image/搜索成员.png)
+![image description](/image/成员-成员搜索.png)
 
 ### 群组
 
