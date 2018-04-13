@@ -20,7 +20,7 @@
 * 标签筛选：通过选择标签筛选出含有该标签的数据分析项目。
 ![image description](/image/manage-project-tag.png)
 * 作者筛选：通过选择创建项目的用户或群组进行项目筛选。
-![image description](/image/)
+![image description](/image/manage-project-select-user.png)
 * 时间筛选：选定一个时间段，筛选出在该时间段内项目发布的最新版本。
 ![image description](/image/manage-project-select-time.png)
 
