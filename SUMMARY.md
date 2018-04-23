@@ -31,4 +31,4 @@
     * [标签管理](ch7/tag_magage.md)
     * [人员信息](ch7/member_info.md)
     * [组织信息](ch7/group_info.md)
-
+* [K-Lab工具包](ch8/chapter8.md)
