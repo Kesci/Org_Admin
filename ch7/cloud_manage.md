@@ -8,4 +8,4 @@
 
 * 管理员可以将特定计算资源分配给全体成员或不同群组；
 
-![image description](/image/管理资源.png)
+![image description](/image/管理计算资源.png)
