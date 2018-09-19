@@ -25,7 +25,7 @@
 
 ![image description](/image/群组信息.png)
 
-* 创建群组：点击`创建群组`按钮，在弹窗中输入群组名称，不超过20个字符。同时可以给群组分配该群组专有的
+* 创建群组：点击`创建群组`按钮，在弹窗中输入群组名称，不超过20个字符。同时可以给群组分配该群组专有的计算资源。
 
 ![image description](/image/群组创建.png)
 
@@ -46,7 +46,3 @@
 ![image description](/image/群组-删除成员.png)
 
 ![image description](/image/群组-添加成员.png)
-
-
-
-
