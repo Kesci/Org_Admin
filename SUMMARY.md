@@ -28,7 +28,7 @@
 * [K-Lab快捷键](ch6/chapter6.md)
 * [组织管理](ch7/chapter7.md)
     * [内容管理](ch7/content_manage.md)
-    * [成员信息](ch7/member_info.md)
+    * [人员管理](ch7/member_info.md)
     * [标签管理](ch7/tag_magage.md)
     * [资源管理](ch7/cloud_manage.md)
     * [组织信息](ch7/group_info.md)
