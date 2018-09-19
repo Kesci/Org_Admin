@@ -6,6 +6,6 @@
 
 ![image description](/image/组织版资源选择.png)
 
-* 管理员可以将特定计算资源分配给全体成员或不同群组：
+* 管理员可以选择将特定计算资源分配给全体成员或不同群组，分配给**全体成员**的资源能够覆盖组织内所有成员。同一资源可以分配给多个群组。
 
-![image description](/image/管理计算资源.png)
+![image description](/image/管理资源.png)
