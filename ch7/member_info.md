@@ -25,9 +25,9 @@
 
 ![image description](/image/群组信息.png)
 
-* 创建群组：点击`创建群组`按钮，在弹窗中输入群组名称，不超过20个字符。
+* 创建群组：点击`创建群组`按钮，在弹窗中输入群组名称，不超过20个字符。同时可以给群组分配该群组专有的
 
-![image description](/image/群组信息.png)
+![image description](/image/创建群组.png)
 
 * 计算资源：在群组列表可以查看群组被分配的专有资源（分配给全体成员的计算资源不会显示）
 
@@ -39,11 +39,13 @@
 
 * 搜索群组：可以通过群组名称里的关键词搜索群组。
 
+![image description](/image/搜索群组.png)
+
 * 添加及删除群组成员：点击群组名，进入群组信息页。点击`添加成员`按钮，在弹窗中勾选需要添加的成员，将成员添加至该群组。点击`删除`按钮，即可将成员从群组中删除，但成员仍在组织中。
 
-![image description](/image/群组-添加成员.png)
-
 ![image description](/image/群组-删除成员.png)
+
+![image description](/image/群组-添加成员.png)
 
 
 
