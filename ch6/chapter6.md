@@ -4,7 +4,7 @@ K-Lab内支持原生Jupyter Notebook的快捷键。快捷键分为命令模式�
 ## 命令模式
 当前cell显示灰色边框，并且左边有蓝条标识。
 ![image description](/image/code-cell.png)
-* `X`：剪切选中cell
+* `X`：剪切选中cell
 * `Shift`+`J`    
   `Shift`+`ArrowDown`：向下选择cell
 * `Shift`+`K`    
