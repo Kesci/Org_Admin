@@ -32,7 +32,7 @@
     * [标签管理](ch7/tag_magage.md)
     * [资源管理](ch7/cloud_manage.md)
     * [组织信息](ch7/group_info.md)
-* [作业管理](ch9/chapter9.md）
+* [作业管理](ch9/chapter9.md)
     * [添加课程和作业](ch9/add_course.md)
     * [设置作业要求](ch9/set_assignment.md)
     * [处理作业](ch9/manage_assignment.md)
