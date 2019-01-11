@@ -23,6 +23,7 @@
 * [数据分析项目](ch5/chapter5.md)
     * [创建项目](ch5/create_lab.md)
     * [管理项目](ch5/manage_lab.md)
+    * [项目权限](ch5/lab_authority.md)
     * [项目版本](ch5/version_lab.md)
     * [Fork项目](ch5/fork_lab.md)
 * [K-Lab快捷键](ch6/chapter6.md)
