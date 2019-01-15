@@ -5,5 +5,6 @@
 以下几个概念将会加深用户对数据分析项目的理解：
 * [创建项目](./create_lab.md)
 * [管理项目](./manage_lab.md)
+* [项目权限](./lab_authority.md)
 * [项目版本](./version_lab.md)
 * [Fork项目](./fork_lab.md)
