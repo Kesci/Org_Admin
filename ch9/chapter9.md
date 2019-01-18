@@ -2,5 +2,5 @@
 任务管理是组织版新增的独立模块，管理员可以在该模块添加任务和相应的阶段，并对每一个阶段的交付成果进行管理。
 
  * [添加任务与阶段](./add_course.md)
- * [设置成果交付要求](./set_assignment.md)
+ * [设置阶段要求](./set_assignment.md)
  * [处理每阶段交付成果](./manage_assignment.md)
