@@ -11,7 +11,7 @@
 
 例如：创建“数据分析”课程标签，然后在该标签下添加作业“作业一”，作业就配置好了。当学生提交该课程作业时选择“数据分析/作业一”即可：
 
-![image description](/image/.png)
+![image description](/image/add_course_homework.png)
 
 
 ### 设置作业要求
