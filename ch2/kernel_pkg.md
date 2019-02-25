@@ -43,6 +43,24 @@ installed.packages('package name')
 install.packages(package_name) #安装工具包。
 ```
 
+* 如果要安装系统软件包，请使用以下命令：
+```
+!sudo apt-get update
+!sudo apt-get install cowsay
+!/usr/games/cowsay -f ghostbusters Who you Gonna Call
+```
+
+### 更改工具包下载镜像
+* 在Python3环境下，使用以下命令：
+```
+!pip install package_name -i https://pypi.douban.com/simple/ #从指定镜像下载安装工具包，镜像URL可自行修改
+```
+* 在R环境下，使用以下命令：
+```
+install.packages('package_name')
+options("repos" = c(CRAN="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))#从指定镜像下载安装工具包，镜像URL可自行修改
+```
+
 **友情提示**：
 * 手动安装好工具包后，请刷新页面，刷新后Kernel将完成工具包的更新部署。
 * 用户自行安装的工具包不能被持久化，有持久化需求的工具包，可在K-Lab运行时内的帮助菜单下找到`工具包反馈 `，在弹出的对话框内填写工具包安装需求，我们将在2个工作日内给出答复。
