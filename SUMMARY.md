@@ -34,6 +34,7 @@
     * [资源管理](ch7/cloud_manage.md)
     * [组织信息](ch7/group_info.md)
 * [自选模块](ch9/chapter9.md)
+    * [课程体系](ch9/course.md)
     * [作业管理](ch9/assignment_mgt.md)
 * [K-Lab工具包](ch8/chapter8.md)
     * [Py3工具包](ch8/py3.md)
