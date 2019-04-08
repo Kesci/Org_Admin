@@ -7,5 +7,6 @@ K-Lab Notebook由以下这几个模块构成：
 * [Header](./header.md)
 * [Code Cell](./code_cell.md)
 * [Markdown Cell](./markdown_cell.md)
+* [代码编辑器](./editor.md)
 * [侧边栏](./side_bar.md)
 * [监控区](./monitor.md) 
