@@ -25,6 +25,7 @@
     * [管理项目](ch5/manage_lab.md)
     * [项目权限](ch5/lab_authority.md)
     * [项目版本](ch5/version_lab.md)
+    * [项目输出](ch5/output_file.md)
     * [Fork项目](ch5/fork_lab.md)
 * [K-Lab快捷键](ch6/chapter6.md)
 * [组织管理](ch7/chapter7.md)
